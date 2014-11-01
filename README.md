@@ -1,6 +1,8 @@
 English to Chinese Translation APIs Wrapper in Ruby.
 ========
 
+[![Code Climate](https://codeclimate.com/github/he9qi/fanyi_api/badges/gpa.svg)](https://codeclimate.com/github/he9qi/fanyi_api)
+
 #### Register API strategy
 
 ```Ruby
