@@ -2,6 +2,7 @@ module FanyiAPI
   module Strategies
 
     InvalidStrategy = Class.new ArgumentError
+    InvalidKey      = Class.new ArgumentError
 
     class Default
 

@@ -1,8 +1,6 @@
 module FanyiAPI
   module Strategies
 
-    InvalidKey   = Class.new ArgumentError
-
     class Youdao < Default
 
       def initialize(params={})
@@ -23,6 +21,10 @@ module FanyiAPI
           if @options[:keyfrom].nil? || @options[:key].nil?
 
         @request_url ||= api_url + "&keyfrom=" + @options[:keyfrom] + "&key=" + @options[:key]
+      end
+
+      def query_key
+        :q
       end
 
     end

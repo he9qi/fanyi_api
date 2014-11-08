@@ -9,8 +9,7 @@ module FanyiAPI
 
     def call(query)
       raise InvalidQuery, "Invalid query" if query.blank?
-      url  = URI.encode(request_url)
-      resp = conn.get request_url, q: query
+      resp = conn.get request_url, { query_key => query } 
       parse resp
     end
 

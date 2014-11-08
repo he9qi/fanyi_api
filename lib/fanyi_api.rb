@@ -6,6 +6,7 @@ module FanyiAPI
 
   require_relative 'fanyi_api/strategies/default'
   require_relative 'fanyi_api/strategies/youdao'
+  require_relative 'fanyi_api/strategies/iciba'
 
   require_relative 'fanyi_api/api'
   require_relative 'fanyi_api/requester'
