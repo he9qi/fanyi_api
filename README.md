@@ -7,6 +7,7 @@ English to Chinese Translation APIs Wrapper in Ruby.
 
 ```Ruby
 FanyiAPI::API.register("youdao", key: "key", keyfrom: "keyfrom")
+FanyiAPI::API.register("iciba", key: "key")
 ```
 
 #### Request API
@@ -17,10 +18,12 @@ FanyiAPI::API.("hello")
 
 # or specify explicitly
 FanyiAPI::API.("youdao", "hello")
+
+# or specify explicitly
+FanyiAPI::API.("iciba", "hello")
 ```
 #### TODO
 
-- add iciba open API
 - parse result
 
 and more ...
