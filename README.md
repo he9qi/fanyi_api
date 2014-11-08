@@ -18,8 +18,6 @@ FanyiAPI::API.("hello")
 
 # or specify explicitly
 FanyiAPI::API.("youdao", "hello")
-
-# or specify explicitly
 FanyiAPI::API.("iciba", "hello")
 ```
 #### TODO
